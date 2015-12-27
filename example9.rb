@@ -1,0 +1,15 @@
+days = " Mon Tue Wed Thu Fri Sat Sun"
+
+# usin \n creates a new line after each word
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+puts "Here are the days: #{days}"
+puts "Here are the months: #{months}"
+
+# using triple quotes before and after allows me to write as many line as I like
+puts """
+There is something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5 or 6.
+"""

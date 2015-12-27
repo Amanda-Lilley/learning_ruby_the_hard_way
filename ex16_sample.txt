@@ -1,0 +1,3 @@
+Learning how to open files from my script
+Learning how to empt files of existing content.
+Learning how to write to the files from my script.
