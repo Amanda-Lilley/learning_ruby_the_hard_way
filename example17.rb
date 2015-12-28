@@ -1,4 +1,4 @@
-# accepts two arguments from terminal. The first argumnet si the file  to Copying
+# accepts two arguments from terminal. The first argumnet is the file  to Copying
 #from and the second argumnet is the file to copt to
 from_file, to_file = ARGV
 
@@ -12,6 +12,8 @@ indata = in_file.read
 
 # this prints the length of the indata content
 puts "The input file is #{indata.length} bytes long."
+
+puts "Does the output file exist? #{File.exist?(to_file)}"
 
 # this gets the standard input either RETURN or CTRL-C and either aborts program
 # or continues to next variable
